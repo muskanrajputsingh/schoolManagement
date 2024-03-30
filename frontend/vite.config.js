@@ -6,9 +6,9 @@ export default defineConfig({
       // "/register":"http://localhost:3000/",
       // "/regdashboard":"http://localhost:3000/",
       // "/logindashboard":"http://localhost:3000/"
-      "/register":"school-management1.vercel.app",
-      "/regdashboard":"school-management1.vercel.app",
-      "/logindashboard":"school-management1.vercel.app"
+      "/register":"https://school-management1.vercel.app",
+      "/regdashboard":"https://school-management1.vercel.app",
+      "/logindashboard":"https://school-management1.vercel.app"
     },
   },
   plugins: [react()],
