@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,html{
+  background-color: black;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+li{
+  list-style: none;
+  cursor: pointer;
+  color: black;
+}
+.section{
+  padding: 4rem 0 2rem;
+}
+
+.container{
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.icon{
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+
+.flex{
+  display: flex;
+  align-items: center;
+}
+
+.grid{
+  display: grid;
+  align-items: center;
+}
+.none{
+  display: none;
+}
+
+.btn{
+  padding: 1.5rem;
+  background:#0b1d39;
+  border: none;
+  outline: none;
+  border-radius: 3rem;
+  cursor: pointer;
+  color: white;
+  height:14px;
+
+}
+.btn:hover{
+  background:rgb(3, 3, 100);
+}
+.musbhv{
+  color:#0b1d39
+}

@@ -1,0 +1,140 @@
+.navbar{
+    position: fixed;
+    flex-direction: column;
+    width: 100%;
+    z-index: 100000;
+ }
+.navbarOne, .navbarTwo{
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+}
+.navbarTwo ul{
+text-align: center;
+}
+.navbarOne{
+    background:whitesmoke;
+}
+.icon:hover{
+    color:  #204073;
+}
+.menu li{
+    padding: 0 1rem;
+    font-size: 18px;
+}
+.menu li:hover{
+    color: #204073;
+}
+#lists{
+    display: flex;
+    padding-right:220px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-top:20px;
+}
+.atb{
+    gap: 1rem;
+}
+.atb span{
+    color: rgb(69, 69, 69);
+    font-size:21px;
+    cursor: pointer;
+    padding: 0 0.5rem;
+    font-weight:500;
+}
+.atb span:hover{
+    color:  #204073;
+    font-size:23px;
+    cursor: pointer;
+}
+.navbarTwo{
+    display: flex;
+    align-items: center;
+    justify-content: 
+    space-between;
+    top: 3rem;
+    padding: 1.5rem 1rem;
+    position: fixed;
+    transition: .3s ease-in-out;
+    box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px,rgba(0,0,0,0.05)0px 4px 6px -2px;
+      border-bottom: 3px solid white;
+      height: 100px;
+      z-index: 9999;
+      background:white;
+}
+.btnOne{
+    margin-left:15px;
+}
+
+@media screen and (max-width:768px) {
+  .navbarMenu{
+      position: absolute;
+      background-color: whitesmoke;
+      padding: 1.5rem;
+      border-radius: 10px;
+      top:7rem;
+      right:-50%;
+      width: 70%;
+      transform: translateX(50%);
+      z-index: 2000;
+      box-shadow: rgba(0,0,0,0.1) 0px 10px 15px -3px,rgba(0,0,0,0.05)0px 4px 6px -2px;
+      border: 3px solid white;
+      transition: .4s ease-in-out;
+    }
+.menu{
+    flex-direction: column;
+    gap: .5rem;
+    text-align: center;
+}
+.listItem{
+    padding: .5rem 0;
+    cursor: pointer;
+    color: black;
+}
+.listItem:hover{
+    color: #204073;
+    font-weight:800;
+}
+.btnOne{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    margin-top: 1rem;
+}
+.btnTwo{
+    display: none;
+}
+.toggleIcon{
+    .icon{
+        font-size: 30px;
+        color: black;
+    }
+}
+.shownavbar{
+    right: 50%;
+    transition: .5s ease-in-out;
+}
+}
+
+@media screen and (min-width:768px){
+    .navbar{
+        align-items:center;
+    }
+    .navbarOne .none{
+       display: flex;
+       gap: 1.5rem;
+       justify-content:center;
+    }
+    .none li{
+        gap: .7rem;
+        color: rgb(71, 70, 70);
+    }
+    .toggleIcon{
+        display: none;
+    }
+}
+@media screen and (max-width:900px) {
+.btnOne{
+   display: none;
+}
+}

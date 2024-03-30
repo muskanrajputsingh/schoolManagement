@@ -1,0 +1,70 @@
+h3{
+  font-family: Calibri; 
+  font-size: 25px;         
+  font-style: normal; 
+  font-weight: bold; 
+  color:#0b1d39;
+  text-align: center; 
+}
+
+table{
+  font-family: Calibri; 
+  color:white; 
+  font-size: 11pt; 
+  font-style: normal;
+  font-weight: bold;
+  border-collapse: collapse; 
+  width:60%;
+  border: 1px solid rgb(108, 126, 154);
+}
+table.inner{
+  border: 0px
+}
+.input-btn{
+  height: 40px;
+  width: 90px;
+  margin: 10px 10px;
+  border-radius: 50px;
+  background-color: #0b1d39 !important;
+  cursor: pointer;
+  color:rgb(249, 247, 247) !important;
+  font-weight: 900;
+}
+.input-btn:hover{
+  color: aliceblue !important;
+  background-color: rgb(140, 219, 219) !important;
+
+}
+.form-page{
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to top,to bottom,rgba(68, 67, 67, 0),#0b1d39);
+}
+.form-page h1{
+  text-align: center;
+  color: rgb(12, 12, 12);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 40px;
+  padding:20px 20px;
+  margin:0;
+}
+.form-page input{
+  margin:5px 0;
+  background-color:transparent;
+  outline: #0b1d39;
+  border: 1px dashed rgb(108, 126, 154);
+}
+td{
+  color: #0b1d39;
+}
+tr{
+  margin: 20px 10px !important;
+}
+input:focus{
+  color: black;
+}
+input{
+  color: black !important;
+  text-transform: uppercase;
+
+}

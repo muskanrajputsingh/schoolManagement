@@ -1,0 +1,107 @@
+.application-head{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+.logooo img{
+ height: 140px;
+ width: 140px;
+}
+
+.school-nm{
+    font-size:15px;
+}
+.app-date{
+    font-weight: 800;
+    padding-top:12px;
+}
+.app-classs p{
+ text-decoration: none;
+ font-size:22px;
+ padding-top:10px;
+ font-weight:800;
+}
+
+.application-box1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid grey;
+}
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-basis: 60%;
+}
+.intro h4{
+    font-size:14px ;
+    text-transform: uppercase;
+    padding: 3px;
+
+}
+
+.profilee{
+    flex-basis:20%;
+
+}
+.profilee img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid grey;
+}
+.app-box{
+    border: 1px solid rgb(1, 1, 28);
+    width:70%;
+    margin: auto auto;
+    height: 100%;
+    text-transform:uppercase;
+}
+.otherr h4{
+ text-align: center;
+ color: gray;
+ font-size:20px;
+}
+
+.otherr{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.divide{
+    width: 1px;
+    height:200px;
+    background-color: grey;
+}
+.quali{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.quali h4{
+    text-align: left;
+}
+.otherr h4{
+    color: black;
+    font-size:13px;
+    padding: 5px;
+
+}
+.personal {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.otherr-head{
+    display: flex;
+    justify-content: space-around;
+    color: gray;
+}
+.personal h4{
+    text-align: left;
+    padding: 5px;
+}
+.otherr-head h5{
+    padding-top: 20px;
+}

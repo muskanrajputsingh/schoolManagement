@@ -1,0 +1,50 @@
+.reggg form{
+    display:block;
+    width:40%;
+    margin: auto;
+}
+.reggg input{
+    border: 1px solid black;
+    border-radius:10px;
+    margin: 5px;
+    color: #fff;
+}
+.back{
+    height:80vh;
+    width:98.5vw;
+    background: url("https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+}
+.reggg{
+    background-color: rgba(0,0,0,0.5);
+    width: 40%;
+    height: 50vh;
+    font-size: 18px;
+    border-radius: 10px;
+    margin: auto auto;
+    box-shadow: 2px 2px 15px rgba(0,0,0,0.3);
+    color: #fff;
+}
+label{
+    font-style: italic;
+}
+.reggg h2{
+    text-align: center;
+    padding:25px;
+    font-size: 30px;
+}
+.botn{
+    background-color: orange;
+    color: white !important;
+    cursor: pointer;
+    border: none;
+}
+.botn:hover{
+    background-color: red;
+    color: rgb(245, 247, 173) !important;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
