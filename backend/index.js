@@ -10,7 +10,7 @@ const Login = require('./model/loginSchema');
 
 app.use(cors(
      {
-         origin:[" "],
+         origin:["https://school-management-front.vercel.app"],
            methods: ["POST","GET"],
             Credentials:true
      }
